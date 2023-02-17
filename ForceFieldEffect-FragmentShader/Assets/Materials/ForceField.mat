@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForceField
+  m_Shader: {fileID: 4800000, guid: 73cefb77ca5a29b35bd14ca2429e95a6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 81f43604f1d87a7ccb441d1908922f9a, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Fresnel: 2
+    - _HighlightScale: 0.1
+    - _Offset: 0.6
+    - _OffsetSubstract: 0.2
+    - _SpeedOffsetTexture: 0.08
+    - _SpeedOffsetTexture_x: 0.05
+    - _SpeedOffsetTexture_y: 0.05
+    - _TilingTexture_x: 3
+    m_Colors:
+    - _Emission: {r: 0, g: 2.9803922, b: 5.521569, a: 1}
+    - _Fill: {r: 0, g: 0.18392421, b: 0.9716981, a: 0}
+    - _HighlightColor: {r: 0, g: 0, b: 0.5, a: 0.2}
+    - _OutlineColor: {r: 1.3041189, g: 1.3041189, b: 1.3041189, a: 0.8509804}
+    - _SpeedOffsetTexture: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
